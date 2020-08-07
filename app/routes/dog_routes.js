@@ -41,7 +41,7 @@ router.post('/dogs', requireToken, (req, res, next) => {
 
   Dog.create(req.body.dog)
     .then(dog => {
-      res.status(201).json({ dog: dog })
+      res.status(201).json({ dog: dog.toObject() })
     })
     .catch(next)
 })
