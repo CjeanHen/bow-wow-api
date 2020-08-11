@@ -63,9 +63,9 @@ CONTENT TYPE: application/json
 HEADERS: The user's authentication token is required.
 
 ## Important Links
-Other Repo: https://github.com/CjeanHen/inTheDogHouse
-Deployed API: https://young-crag-09807.herokuapp.com/
-Deployed Client:https://cjeanhen.github.io/inTheDogHouse/
+- [Other Repo](https://github.com/CjeanHen/inTheDogHouse)
+- [Deployed API](https://young-crag-09807.herokuapp.com/)
+- [Deployed Client](https://cjeanhen.github.io/inTheDogHouse/)
 
 ### Planning Story
 The first step to creating the back-end of this project was to think about the resources and how they should be represented. Once I had defined the way the resources were connected and the attributes they needed to have, I started writing curl scripts to visualize how to communicate with the API. I updated the routes based off of the information from the curl scripts and tested them out one at a time first on the User and then on the Dogs. This was the quickest and easiest part of the project. Once the curl scripts were running I moved on to the browser.
